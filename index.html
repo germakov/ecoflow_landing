@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="EcoFlow — умное управление энергией дома. Контролируйте расход и планируйте экономию."
+    />
+    <title>EcoFlow — умный дом, разумная энергия</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="container nav">
+        <a class="logo" href="#top" aria-label="EcoFlow — на главную"
+          ><span class="logo-mark">✳</span> eco<span>flow</span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          ☰
+        </button>
+
+        <nav class="menu" id="mobile-menu" aria-label="Основная навигация">
+          <a href="#how">Как работает</a>
+          <a href="#benefit">Выгода</a>
+          <a href="#pricing">Тарифы</a>
+        </nav>
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Переключить тему"
+            aria-pressed="false"
+          >
+            ☾</button
+          ><a class="btn btn-small" href="#contact" data-plan="Старт"
+            >Начать бесплатно <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="pulse"></span> УМНЕЕ ДОМ. ЛЕГЧЕ ЖИЗНЬ.
+            </div>
+            <h1>Энергия дома.<br /><em>Под вашим</em><br />контролем.</h1>
+            <p class="lead">
+              Следите за потреблением, находите лишние расходы и управляйте
+              домашней энергией в одном удобном сервисе.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn" data-plan="Старт"
+                >Попробовать бесплатно <span aria-hidden="true">↗</span></a
+              ><a href="#how" class="text-link"
+                >Как это работает <span aria-hidden="true">↘</span></a
+              >
+            </div>
+            <div class="hero-note">
+              <span class="avatars" aria-hidden="true">◉ ◉ ◉</span
+              ><span>Простой старт · Без привязки карты</span>
+            </div>
+          </div>
+          <div
+            class="hero-visual"
+            aria-label="Иллюстрация панели управления энергией"
+          >
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="visual-glow"></div>
+            <div class="dashboard">
+              <div class="dash-head">
+                <span><span class="dash-dot"></span> МОЙ ДОМ</span
+                ><span>● Онлайн</span>
+              </div>
+              <div class="dash-title">Энергия сегодня <span>↗</span></div>
+              <div class="dash-value">12,4 <small>кВт·ч</small></div>
+              <div class="chart" aria-hidden="true">
+                <span style="--h: 48%"></span><span style="--h: 68%"></span
+                ><span style="--h: 53%"></span><span style="--h: 83%"></span
+                ><span style="--h: 61%"></span><span style="--h: 43%"></span
+                ><span style="--h: 70%"></span><span style="--h: 54%"></span
+                ><span style="--h: 35%"></span><span style="--h: 47%"></span
+                ><span style="--h: 29%"></span><span style="--h: 39%"></span>
+              </div>
+              <div class="dash-bottom">
+                <span>00:00</span><span>Сейчас</span>
+              </div>
+            </div>
+            <div class="floating-card">
+              <div class="float-icon">↘</div>
+              <div><strong>−24%</strong><small>Потенциал экономии*</small></div>
+            </div>
+            <div class="leaf-decoration" aria-hidden="true">✳</div>
+          </div>
+        </div>
+      </section>
+      <section class="trust-strip">
+        <div class="container trust-inner">
+          <span>МЕНЬШЕ РУТИНЫ</span><span>✳</span><span>БОЛЬШЕ КОНТРОЛЯ</span
+          ><span>✳</span><span>РАЗУМНОЕ ПОТРЕБЛЕНИЕ</span>
+        </div>
+      </section>
+      <section class="section how" id="how">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="kicker">01 / ПРОСТОЙ СТАРТ</span>
+              <h2>Умные привычки.<br /><span>Всего в 3 шага.</span></h2>
+            </div>
+            <p>
+              Никаких сложных настроек. Только понятные данные и полезные
+              подсказки.
+            </p>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <div class="step-icon">⌂</div>
+              <span class="step-number">01</span>
+              <h3>Добавьте свой дом</h3>
+              <p>
+                Укажите основные параметры жилья и текущие расходы на
+                электричество.
+              </p>
+            </article>
+            <article class="step">
+              <div class="step-icon">▥</div>
+              <span class="step-number">02</span>
+              <h3>Получайте аналитику</h3>
+              <p>
+                Смотрите динамику потребления и замечайте, где можно тратить
+                меньше.
+              </p>
+            </article>
+            <article class="step">
+              <div class="step-icon">↗</div>
+              <span class="step-number">03</span>
+              <h3>Оптимизируйте расходы</h3>
+              <p>
+                Следуйте персональным рекомендациям и отслеживайте результат.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section calculator-section" id="benefit">
+        <div class="container calculator-grid">
+          <div>
+            <span class="kicker kicker-light">02 / ВАША ВЫГОДА</span>
+            <h2>Меньше трат.<br /><span>Больше возможностей.</span></h2>
+            <p>
+              Узнайте, сколько вы потенциально сможете сэкономить, если
+              сократите энергопотребление.
+            </p>
+            <div class="calc-disclaimer">
+              *Примерный расчет, не гарантия экономии. Фактический результат
+              зависит от привычек и тарифов.
+            </div>
+          </div>
+          <div class="calc-card">
+            <div class="calc-top">
+              <label for="bill">Ваш счет за электричество в месяц</label
+              ><output id="bill-output" for="bill">5 000 ₽</output>
+            </div>
+            <input
+              id="bill"
+              type="range"
+              min="1000"
+              max="20000"
+              step="500"
+              value="5000"
+            />
+            <div class="range-labels">
+              <span>1 000 ₽</span><span>20 000 ₽</span>
+            </div>
+            <div class="calc-top calc-second">
+              <label for="saving">Предполагаемое снижение расхода</label
+              ><output id="saving-output" for="saving">20%</output>
+            </div>
+            <input
+              id="saving"
+              type="range"
+              min="5"
+              max="30"
+              step="5"
+              value="20"
+            />
+            <div class="range-labels"><span>5%</span><span>30%</span></div>
+            <div class="calc-result">
+              <span>Потенциальная экономия за год</span
+              ><strong id="yearly-saving" aria-live="polite">12 000 ₽</strong
+              ><small>≈ <span id="monthly-saving">1 000 ₽</span> в месяц</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section pricing" id="pricing">
+        <div class="container">
+          <div class="center-heading">
+            <span class="kicker">03 / ТАРИФЫ</span>
+            <h2>Ваш дом. Ваш выбор.</h2>
+            <p>
+              Начните с малого и расширяйте возможности, когда будете готовы.
+            </p>
+          </div>
+          <div class="pricing-grid">
+            <article class="price-card">
+              <div class="plan-name">СТАРТ</div>
+              <h3>Знакомство</h3>
+              <p>Для первого шага к осознанному потреблению.</p>
+              <div class="price">0 ₽ <small>/ мес.</small></div>
+              <a href="#contact" class="btn btn-outline" data-plan="Старт"
+                >Начать бесплатно ↗</a
+              >
+              <ul>
+                <li>✓ Один объект</li>
+                <li>✓ Ручной учет расходов</li>
+                <li>✓ Базовая аналитика</li>
+              </ul>
+            </article>
+            <article class="price-card featured">
+              <div class="popular">ПОПУЛЯРНЫЙ</div>
+              <div class="plan-name">КОМФОРТ</div>
+              <h3>Полный контроль</h3>
+              <p>Для тех, кто хочет видеть больше и тратить меньше.</p>
+              <div class="price">399 ₽ <small>/ мес.</small></div>
+              <a href="#contact" class="btn" data-plan="Комфорт"
+                >Выбрать тариф ↗</a
+              >
+              <ul>
+                <li>✓ До 3 объектов</li>
+                <li>✓ Расширенная аналитика</li>
+                <li>✓ Персональные рекомендации</li>
+                <li>✓ Отчеты по месяцам</li>
+              </ul>
+            </article>
+            <article class="price-card">
+              <div class="plan-name">МАКСИМУМ</div>
+              <h3>Все возможности</h3>
+              <p>Для нескольких объектов и глубокого анализа.</p>
+              <div class="price">799 ₽ <small>/ мес.</small></div>
+              <a href="#contact" class="btn btn-outline" data-plan="Максимум"
+                >Выбрать тариф ↗</a
+              >
+              <ul>
+                <li>✓ До 10 объектов</li>
+                <li>✓ Все функции «Комфорт»</li>
+                <li>✓ Приоритетная поддержка</li>
+                <li>✓ Экспорт данных</li>
+              </ul>
+            </article>
+          </div>
+          <p class="pricing-note">
+            Демонстрационные тарифы. Условия и доступность функций уточняются
+            перед запуском.
+          </p>
+        </div>
+      </section>
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <span class="kicker">04 / НАЧНИТЕ СЕГОДНЯ</span>
+            <h2>Будущее дома<br /><span>начинается здесь.</span></h2>
+            <p>
+              Оставьте контакты — мы сообщим о запуске и поможем подобрать
+              подходящий тариф.
+            </p>
+            <div class="contact-decoration" aria-hidden="true">✳</div>
+          </div>
+          <form id="lead-form" class="contact-form" novalidate>
+            <h3>Присоединиться к EcoFlow</h3>
+            <p>Всего два поля — и вы в списке ожидания.</p>
+            <label for="name">Ваше имя</label
+            ><input
+              id="name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              minlength="2"
+              maxlength="80"
+              placeholder="Как к вам обращаться"
+              required
+            /><span class="field-error" id="name-error"></span
+            ><label for="email">Электронная почта</label
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="you@example.com"
+              required
+            /><span class="field-error" id="email-error"></span
+            ><input
+              type="hidden"
+              name="plan"
+              id="selected-plan"
+              value="Не выбран"
+            />
+            <p id="plan-display" aria-live="polite">Тариф пока не выбран</p>
+            <button class="btn submit-btn" type="submit">
+              Оставить заявку ↗
+            </button>
+            <p class="privacy-note">
+              Нажимая кнопку, вы соглашаетесь с
+              <a href="privacy.html">политикой конфиденциальности</a>.
+            </p>
+            <div id="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-main">
+        <div>
+          <a class="logo" href="#top"
+            ><span class="logo-mark">✳</span> eco<span>flow</span></a
+          >
+          <p>Умная энергия для комфортной жизни.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#how">Как работает</a><a href="#pricing">Тарифы</a
+          ><a href="privacy.html">Конфиденциальность</a>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:hello@example.com">hello@example.com</a
+          ><a href="https://t.me/" target="_blank" rel="noopener noreferrer"
+            >Telegram ↗</a
+          ><a href="https://vk.com/" target="_blank" rel="noopener noreferrer"
+            >VK ↗</a
+          >
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> EcoFlow. Концепт лендинга.</span
+        ><span>С заботой о будущем ✳</span>
+      </div>
+    </footer>
+  </body>
+</html>
