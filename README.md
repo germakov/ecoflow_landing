@@ -34,7 +34,7 @@ EcoFlow — демонстрационный проект современног
 ## 📂 Структура проекта
 
 ```text
-ecoflow-landing/
+ecoflow_landing/
 ├── index.html       # Главная страница
 ├── privacy.html     # Политика конфиденциальности
 ├── styles.css       # Стили сайта
@@ -49,13 +49,13 @@ ecoflow-landing/
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/germakov/ecoflow-landing.git
+   git clone https://github.com/germakov/ecoflow_landing.git
    ```
 
 2. Перейдите в папку проекта:
 
    ```bash
-   cd ecoflow-landing
+   cd ecoflow_landing
    ```
 
 3. Откройте файл `index.html` в браузере.
