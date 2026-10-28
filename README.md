@@ -8,7 +8,7 @@ EcoFlow — демонстрационный проект современног
 
 ## 🚀 Демо
 
-**[Посмотреть сайт](https://germakov.github.io/ecoflow-landing/)**
+**[Посмотреть сайт](https://germakov.github.io/ecoflow_landing/)**
 
 ## ✨ Возможности
 
